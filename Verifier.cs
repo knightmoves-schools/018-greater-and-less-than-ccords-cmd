@@ -6,23 +6,23 @@ public string OldEnough(int age){
         return "old enough";
     }
         return "";
-};
+}
 public string UnderAge(int age){
     if (age < 18){
         return "under age";
     }
         return "";
-};
+}
 public string LegalSpeed(int speed){
     if (speed <= 50){
         return "legal speed";
     }
         return "";
-};
+}
 public string IsGoldenYears(int age){
     if (age >= 65){
         return "golden years";
     }
         return "";
-};
+}
 }
