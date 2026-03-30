@@ -16,14 +16,14 @@ public string UnderAge(int age){
     }
 };
 public string LegalSpeed(int speed){
-    if (speed < 50){
+    if (speed <= 50){
         return "legal speed";
     }else{
         return "";
     }
 };
 public string IsGoldenYears(int age){
-    if (age > 65){
+    if (age >= 65){
         return "golden years";
     }else{
         return "";
