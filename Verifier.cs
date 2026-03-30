@@ -4,29 +4,25 @@ public class Verifier
 public string OldEnough(int age){
     if (age > 17){
         return "old enough";
-    }else{
-        return "";
     }
+        return "";
 };
 public string UnderAge(int age){
     if (age < 18){
         return "under age";
-    }else{
-        return "";
     }
+        return "";
 };
 public string LegalSpeed(int speed){
     if (speed <= 50){
         return "legal speed";
-    }else{
-        return "";
     }
+        return "";
 };
 public string IsGoldenYears(int age){
     if (age >= 65){
         return "golden years";
-    }else{
-        return "";
     }
+        return "";
 };
 }
